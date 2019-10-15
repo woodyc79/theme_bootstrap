@@ -1,0 +1,31 @@
+plugin.tx_themes {
+	settings {
+		themes.configuration.footer.address = {$themes.configuration.footer.address}
+		themes.configuration.footer.email = {themes.configuration.footer.email}
+		themes.configuration.footer.copyright.leftLabel = {$themes.configuration.footer.copyright.leftLabel};
+		themes.configuration.footer.copyright.rightLabel = {$themes.configuration.footer.copyright.rightLabel};
+		themes.configuration.footer.logo.main.file = {$themes.configuration.footer.logo.main.file};
+		themes.configuration.footer.logo.main.width = {$themes.configuration.footer.logo.main.width};
+		themes.configuration.footer.logo.main.height = {$themes.configuration.footer.logo.main.height};
+		themes.configuration.footer.logo.main.linkUid = {$themes.configuration.footer.logo.main.linkUid};
+		themes.configuration.footer.logo.main.linkTarget = {$themes.configuration.footer.logo.main.linkTarget};
+		themes.configuration.footer.logo.main.title = {$themes.configuration.footer.logo.main.title};
+
+
+		themes.configuration.socialmedia.useFacebook = {$themes.configuration.socialmedia.useFacebook};
+		themes.configuration.socialmedia.facebookLink = {$themes.configuration.socialmedia.facebookLink};
+		themes.configuration.socialmedia.useGooglePlus = {$themes.configuration.socialmedia.useGooglePlus};
+		themes.configuration.socialmedia.googlePlusLink = {$themes.configuration.socialmedia.googlePlusLink};
+		themes.configuration.socialmedia.useInstagram = {$themes.configuration.socialmedia.useInstagram};
+		themes.configuration.socialmedia.instagramLink = {$themes.configuration.socialmedia.instagramLink};
+		themes.configuration.socialmedia.useRss = {$themes.configuration.socialmedia.useRss};
+		themes.configuration.socialmedia.rssLink = {$themes.configuration.socialmedia.rssLink};
+		themes.configuration.socialmedia.useTwitter = {$themes.configuration.socialmedia.useTwitter};
+		themes.configuration.socialmedia.twitterUsername = {$themes.configuration.socialmedia.twitterUsername};
+		themes.configuration.socialmedia.useXing = {$themes.configuration.socialmedia.useXing};
+		themes.configuration.socialmedia.xingLink = {$themes.configuration.socialmedia.xingLink};
+		themes.configuration.socialmedia.useYoutube = {$themes.configuration.socialmedia.useYoutube};
+		themes.configuration.socialmedia.youtubeLink = {$themes.configuration.socialmedia.youtubeLink};
+
+	}
+}

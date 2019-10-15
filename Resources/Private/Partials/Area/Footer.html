@@ -29,11 +29,11 @@
 				<div class="footer-line-wrapper col-md-12">
 					<ul class="footer-line list-inline">
 						<li class="address">
-							<span><f:format.htmlentitiesDecode>{theme:constant(constant: 'themes.configuration.footer.address')}</f:format.htmlentitiesDecode></span>
+							<span><f:format.htmlentitiesDecode>{settings.themes.configuration.footer.address}</f:format.htmlentitiesDecode></span>
 						</li>
 						<li>|</li>
 						<li class="email">
-							<f:link.email email="{theme:constant(constant: 'themes.configuration.footer.email')}">{theme:constant(constant: 'themes.configuration.footer.email')}</f:link.email></li>
+							<f:link.email email="{settings.themes.configuration.footer.email}">{settings.themes.configuration.footer.email}</f:link.email></li>
 						<li>|</li>
 						<f:cObject typoscriptObjectPath="lib.footer.copyright" />
 					</ul>

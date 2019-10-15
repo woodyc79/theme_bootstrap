@@ -17,13 +17,13 @@
 				<f:cObject typoscriptObjectPath="lib.menu.main" />
 				<div class="menu-language-wrapper pull-right">
 					<theme:widget.languageMenu
-							availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
-							currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
-							defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
-							defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
-							defaultLanguageFlag="{theme:constant(constant: 'themes.languages.default.flag')}"
+							availableLanguages="{settings.themes.languages.available}"
+							currentLanguageUid="{settings.themes.languages.current.uid}"
+							defaultLanguageIsoCodeShort="{settings.themes.languages.default.isoCodeShort}"
+							defaultLanguageLabel="{settings.themes.languages.default.label}"
+							defaultLanguageFlag="{settings.themes.languages.default.flag}"
 							/>
-					<f:if condition="{theme:constant(constant: 'themes.languages.available')}">
+					<f:if condition="{settings.themes.languages.available}">
 						<span>
 							<f:translate key="languageMenu_label" />
 						</span>
